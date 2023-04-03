@@ -48,6 +48,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
+    text-decoration: none;
 }
 
 .logo-dark {
@@ -230,10 +231,12 @@ body {
 }
 
 .team-list {
-    background-color: #ffffff;
+ 
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-undertitle {
     font-family: var(--primary-font);
@@ -258,6 +261,7 @@ body {
 }
 
 .footer {
+    text-decoration: none;
     background-color: var(--color-navy-blue);
 }
 
