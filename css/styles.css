@@ -19,20 +19,36 @@
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
+    color: #434455;
+    background-color: var(--color-white);
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration:none
+}
 
 
 /* base Styles */
 .section {}
 
 .logo {
+    font-family: 'Raleway';
+
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17x;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
     color: var(--color-iris);
 }
 
@@ -64,6 +80,11 @@ body {
 .header-item {}
 
 .header-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
 
@@ -269,9 +290,9 @@ body {
 
 }
 
-.filter-btn:hover, .filter-btn:focus {
-background: var(--color-ocean);
-color: var(--color-white);
+.filter-btn:hover .filter-btn:focus {
+    background: var(--color-ocean);
+    color: var(--color-white);
 }
 
 .app {}
