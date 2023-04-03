@@ -19,7 +19,7 @@
 
 
 body {
-    font-family: roboto, sans-serif;
+    color: var(--color-navy-blue);
 }
 
 
@@ -27,40 +27,76 @@ body {
 /* base Styles */
 .section {}
 
-.logo {}
+.logo {
+    color: var(--color-iris);
+}
 
-
-
-/* Hero Styles */
-.hero {}
-
-.hero-title {}
-
-.hero-button {
+.logo-dark {
+    color: var(--color-navy-blue);
 
 }
 
-.btn {}
+.logo-light {
+    color: var(--color-cloud);
+}
+
+
 
 /* Header Styles */
 
-.header {}
+.header {
 
-.header-nav {}
+}
+
+.header-nav {
+
+}
 
 .logo {}
 
 .logo-dark {}
 
-.header-list {}
+.header-list {
+    color: var(--color-navy-blue);
+}
 
-.header-item {}
+.header-item {
+    
+}
 
-.header-link {}
+.header-link {
+    color: var(--color-navy-blue);
+}
 
-.header-contact {}
+.header-contact {
+    
+}
 
-.header-address {}
+.header-mail {
+    color: var(--color-slate);
+}
+
+.header-phone {
+    color: var(--color-slate);
+}
+
+
+/* Hero Styles */
+.hero {
+    background-color: var(--color-navy-blue);
+}
+
+.hero-title {}
+
+.hero-button {
+    background-color: var(--color-iris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.btn {}
+
 
 /* FEATURE Styles */
 
@@ -74,53 +110,40 @@ body {
 
 .feature-undertitle {}
 
-/*
-.feature-desc:hover {
-    color: red;
-    background-color: #31d0aa;
 
-}
-*/
-
-.feature-desc {}
-
-/* Section ____________ */
-/* Section ____________ */
-/* Section ____________ */
-
-
-
-/* LOGO */
-
-/* .logo {
-    font-family: "Raleway";
-    sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-
-    text-decoration: none;
+.feature-desc {
+    color: var(--color-slate);
 }
 
-.logo-dark {
-    color: #2E2F42;
-
-
+.benefits {
+}
+.section {
+}
+.benefits-title {
 }
 
+.team {
+    background-color: var(--color-cloud);
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-undertitle {
+}
+.team-desc {
+    color: var(--color-slate);
+}
+
+.footer {
+    background-color: var(--color-navy-blue);
+}
+.logo {
+}
 .logo-light {
-    color: #F4F4FD;
-
 }
-
-.hero-section {
-    background-color: var(--color-navy-blue);
+.footer-desc {
+    color: var(--color-cloud);
 }
-
-footer {
-    background-color: var(--color-navy-blue);
-}
-*/
