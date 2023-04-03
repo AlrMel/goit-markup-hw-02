@@ -253,6 +253,9 @@ body {
 }
 
 /* portfolio */
+.filter-list {
+    background-color: var(--color-white);
+}
 
 .filter-btn {
     font-family: var(--primary-font);
