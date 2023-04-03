@@ -13,13 +13,21 @@
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
 
+    /* fonts */
 
+    --primary-font: "roboto", sens-serif;
 }
 
 
 
 body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+
 }
 
 
@@ -44,13 +52,9 @@ body {
 
 /* Header Styles */
 
-.header {
+.header {}
 
-}
-
-.header-nav {
-
-}
+.header-nav {}
 
 .logo {}
 
@@ -60,17 +64,13 @@ body {
     color: var(--color-navy-blue);
 }
 
-.header-item {
-    
-}
+.header-item {}
 
 .header-link {
     color: var(--color-navy-blue);
 }
 
-.header-contact {
-    
-}
+.header-contact {}
 
 .header-mail {
     color: var(--color-slate);
@@ -86,7 +86,9 @@ body {
     background-color: var(--color-navy-blue);
 }
 
-.hero-title {}
+.hero-title {
+    color: var(--color-white);
+}
 
 .hero-button {
     background-color: var(--color-iris);
@@ -115,24 +117,24 @@ body {
     color: var(--color-slate);
 }
 
-.benefits {
-}
-.section {
-}
-.benefits-title {
-}
+.benefits {}
+
+.section {}
+
+.benefits-title {}
 
 .team {
     background-color: var(--color-cloud);
 }
-.team-title {
-}
-.team-list {
-}
-.team-item {
-}
-.team-undertitle {
-}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-undertitle {}
+
 .team-desc {
     color: var(--color-slate);
 }
@@ -140,10 +142,11 @@ body {
 .footer {
     background-color: var(--color-navy-blue);
 }
-.logo {
-}
-.logo-light {
-}
+
+.logo {}
+
+.logo-light {}
+
 .footer-desc {
     color: var(--color-cloud);
 }
