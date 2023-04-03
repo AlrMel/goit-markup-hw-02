@@ -167,6 +167,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--color-grey);
 
 }
 
@@ -209,7 +210,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
+    color: var(--color-grey);
 }
 
 .team {
@@ -228,7 +229,9 @@ body {
     color: var(--color-navy-blue);
 }
 
-.team-list {}
+.team-list {
+    background-color: #ffffff;
+}
 
 .team-item {}
 
@@ -238,10 +241,9 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-
-
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 
 .team-desc {
