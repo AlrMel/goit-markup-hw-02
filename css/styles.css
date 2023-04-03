@@ -116,6 +116,7 @@ body {
 
 /* Hero Styles */
 .hero {
+    font-family: "Roboto", sans-serif;
     background-color: var(--color-navy-blue);
 }
 
@@ -135,21 +136,25 @@ body {
 .hero-button {
     font-family: var(--primary-font);
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--color-iris);
     color: var(--color-white);
     width: 169px;
     height: 56px;
+    cursor: pointer;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
 
-/*
+
 .hero-button:hover,
-.hero-button:focus {}
-*/
+.hero-button:focus {
+    background-color: #404BBF
+}
+
 
 
 .btn {}
@@ -168,7 +173,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--color-grey);
+    color: var(--color-navy-blue);
 
 }
 
@@ -230,9 +235,7 @@ body {
     color: var(--color-navy-blue);
 }
 
-.team-list {
- 
-}
+.team-list {}
 
 .team-item {
     background-color: #FFFFFF;
