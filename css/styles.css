@@ -33,7 +33,7 @@ body {
 }
 
 .link {
-    text-decoration:none
+    text-decoration: none;
 }
 
 
@@ -41,14 +41,12 @@ body {
 .section {}
 
 .logo {
-    font-family: 'Raleway';
-
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17x;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: var(--color-iris);
 }
 
@@ -88,7 +86,9 @@ body {
     color: var(--color-navy-blue);
 }
 
-.header-contact {}
+.header-contact {
+    font-style: normal;
+}
 
 .header-mail {
     font-family: var(--primary-font);
