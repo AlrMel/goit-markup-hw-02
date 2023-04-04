@@ -99,7 +99,7 @@ body {
     font-style: normal;
 }
 
-.header-mail {
+.header-cont {
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
@@ -110,7 +110,8 @@ body {
     text-decoration: none;
 }
 
-.header-phone {
+
+.header-cont {
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
@@ -119,6 +120,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-slate);
     text-decoration: none;
+}
+
+.header-cont:hover,
+.header-cont:focus {
+    color: #404BBF
 }
 
 
@@ -140,7 +146,6 @@ body {
 
 }
 
-
 .hero-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -157,16 +162,12 @@ body {
 
 }
 
-
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF
 }
 
-
-
 .btn {}
-
 
 /* FEATURE Styles */
 
@@ -198,7 +199,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
-
 
 .feature-desc {
     font-family: 'Roboto';
@@ -275,10 +275,6 @@ body {
     background-color: var(--color-navy-blue);
 }
 
-.logo {}
-
-.logo-light {}
-
 .footer-desc {
     font-family: 'Roboto';
     font-style: normal;
@@ -295,7 +291,7 @@ body {
 }
 
 .filter-btn {
-    font-family: var(--primary-font);
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -303,12 +299,14 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--color-iris);
-
+    background-color: var(--color-cloud);
+    cursor: pointer;
 }
 
-.filter-btn:hover, 
+.filter-btn:hover,
 .filter-btn:focus {
-        color: #404bbf ;
+    color: #ffffff;
+    background-color: #404BBF;
 }
 
 .app {}
@@ -316,8 +314,7 @@ body {
 .section {}
 
 .app-title {
-    font-family: var(--primary-font);
-    font-style: normal;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -326,9 +323,6 @@ body {
 }
 
 .app-desc {
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -338,8 +332,6 @@ body {
 .design {}
 
 .design-title {
-    font-family: var(--primary-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -348,9 +340,6 @@ body {
 }
 
 .design-desc {
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -359,8 +348,6 @@ body {
 }
 
 .marketing-title {
-    font-family: var(--primary-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -369,8 +356,6 @@ body {
 }
 
 .marketing-desc {
-    font-family: var(--primary-font);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
