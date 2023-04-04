@@ -92,7 +92,7 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-    background-color: #404BBF
+    color: #404BBF
 }
 
 .header-contact {
@@ -306,9 +306,9 @@ body {
 
 }
 
-.filter-btn:hover .filter-btn:focus {
-    background: var(--color-ocean);
-    color: var(--color-white);
+.filter-btn:hover, 
+.filter-btn:focus {
+        color: #404bbf ;
 }
 
 .app {}
