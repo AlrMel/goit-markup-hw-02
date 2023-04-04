@@ -309,11 +309,10 @@ body {
     background-color: #404BBF;
 }
 
-.app {}
 
 .section {}
 
-.app-title {
+.preview-title {
 
     font-weight: 500;
     font-size: 20px;
@@ -322,44 +321,10 @@ body {
     color: var(--color-navy-blue);
 }
 
-.app-desc {
+.preview-desc {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
 }
 
-.design {}
-
-.design-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
-}
-
-.design-desc {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-
-}
-
-.marketing-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
-}
-
-.marketing-desc {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-
-}
